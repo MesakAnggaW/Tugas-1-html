@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <a name="sumatera" href="#">Pulau Sumatera</a><br>
+    <a name="jawa" href="#">Pulau Jawa</a><br>
+    <a name="kalimantan" href="#">Pulau kalimantan</a><br>
+    <a name="Papua" href="#">Pulau Papua</a><br>
+
+    <p id="contoh">contoh</p>
+    <button onclick="tombol()">Klik</button>
+
+    <script type="text/javascript">
+      function tombol() {
+        let a = document.anchors.length;
+        document.getElementById('contoh').innerHTML = a;
+      }
+    </script>
+  </body>
+</html>
